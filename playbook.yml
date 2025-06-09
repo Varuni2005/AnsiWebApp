@@ -5,7 +5,7 @@
   tasks:
     - name: Copy WAR file tomcat
       copy:
-        src: "/var/snap/jenkins/4874/workspace/AnsiWebApp-CICD/target/AnsiWebApp.war"
+        src: "/var/snap/jenkins/4874/workspace/AnsiWebApp/target/AnsiWebApp.war"
         dest: "/opt/tomcat/webapps/AnsiWebApp.war"
         remote_src: no
      
